@@ -37,7 +37,10 @@ Desarrollar una API robusta y documentada que permita administrar registros de p
 ```git clone https://github.com/tu-usuario/tu-repo.git
 cd tu-repo
 
-##  Configurar tu appS
+- Después de clonar el proyecto, ejecuta `dotnet restore` para descargar las dependencias necesarias.
+
+
+##  Configurar tu appSettings
 {
 origenesPermitidos: "*",
 "connectionStrings": {
@@ -63,8 +66,6 @@ Update-Database
 
 - Implementar autenticación con JWT.
 - Agregar paginación y ordenamiento en el endpoint GET.
-- Unit tests para capa de servicios.
-
 
 
 
