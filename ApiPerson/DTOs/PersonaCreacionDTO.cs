@@ -11,6 +11,7 @@ namespace ApiPerson.DTOs
         public string Apellido { get; set; }
         
         [Required(ErrorMessage = "El campo {0} es requerido.")]
+        [Display(Name = "Fecha Nacimiento")]
         public DateTime FechaNacimiento { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es requerido.")]
