@@ -34,7 +34,8 @@ Desarrollar una API robusta y documentada que permita administrar registros de p
 
 ### 1. Clonar el repositorio
 
-```git clone https://github.com/tu-usuario/tu-repo.git
+```
+git clone https://github.com/tu-usuario/tu-repo.git
 cd tu-repo
 
 - Después de clonar el proyecto, ejecuta `dotnet restore` para descargar las dependencias necesarias.
